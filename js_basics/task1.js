@@ -1,8 +1,8 @@
-let message = "Hello, World!";
+const message = "Hello, World!";
 const age = 28;
-let car = 3;
-let isTrue = true;
-let isFalse = false;
+const car = 3;
+const isTrue = true;
+const isFalse = false;
 const nullValue = null;
 let undefinedVariable;
 

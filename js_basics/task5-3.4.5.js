@@ -1,5 +1,5 @@
-let length = 2.4;
-let width = 3.2324;
+const length = 2.4;
+const width = 3.2324;
 
 let rectangleArea = (length * width).toFixed(2);
 

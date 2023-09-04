@@ -1,5 +1,5 @@
 // 1 example
-let age = 25;
+const age = 25;
 let adulthood = age >= 18;
 
 console.log("Person's age is", age);
