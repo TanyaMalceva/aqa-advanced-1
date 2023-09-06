@@ -1,6 +1,6 @@
 const averageGrade = 90;
 
-if (averageGrade <= 60) {
+if (averageGrade < 60) {
     console.log ("Unsatisfactorily")
 } else if (averageGrade >= 60 && averageGrade <= 70) {
     console.log("Satisfactorily")

@@ -1,7 +1,7 @@
 const averageGrade = 100;
 
 switch (true) {
-    case (averageGrade <= 60):
+    case (averageGrade < 60):
         console.log ("Unsatisfactorily");
         break
     case (averageGrade <= 70):
