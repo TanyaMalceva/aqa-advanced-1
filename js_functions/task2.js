@@ -1,9 +1,5 @@
-function validate(age) {
-    if (age >= 18) {
-        return true;
-    } else {
-        return false;
-    }
+function checkAdult(age) {
+    return age >= 18
 }
-console.log(validate(25)); // True
-console.log(validate(15)); // False
+console.log(checkAdult(25)); // True
+console.log(checkAdult(15)); // False

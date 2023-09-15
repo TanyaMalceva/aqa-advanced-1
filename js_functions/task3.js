@@ -1,9 +1,7 @@
-function recursiveFunction(num) {
+function countDown(num) {
     console.log(num);
-    if (num <= 0) {
-        return;
-    } else {
-        recursiveFunction(num - 1);
+    if (num > 0) {
+        countDown(num - 1);
     }
 }
-    recursiveFunction(5);
+countDown(5);
