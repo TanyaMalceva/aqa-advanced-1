@@ -37,14 +37,6 @@ console.log("---------------------------");
 ebook3.printInfo();
 console.log("---------------------------");
 
-static findOldestBook(books) {
-    if (!books.length) {
-        return null;
-    }
-    return [...books].sort((a, b) => a.year - b.year)[0];
-}
-const book1 = new Book("Self Power", "Deepak Chopra", 2013);
-
 const oldestBook = Book.findOldestBook([book1, book2, book3, ebook1]);
 console.log('Oldest book:');
 oldestBook.printInfo();
