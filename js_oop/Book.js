@@ -45,15 +45,7 @@ export class Book {
         } else {
             console.error('Publication year must be a number greater than or equal to 2009 year.');
         }
-    }
 
-    static findOldestBook(books) {
-        if (!books.length) {
-            return null;
-        }
-        return [...books].sort((a, b) => a.year - b.year)[0];
-    }
-}
         const book1 = new Book("Self Power", "Deepak Chopra", 2013);
         const book2 = new Book("Outliers", "Malcolm Gladwell", 2009);
         const book3 = new Book("Good Habits, Bad Habits", "Wendy Wood", 2019);
@@ -63,3 +55,6 @@ export class Book {
         book2.printInfo();
         console.log("---------------------------");
         book3.printInfo();
+
+    }
+}
